@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  border-radius: 2rem;
+  padding: 0.5em 4em;
+}

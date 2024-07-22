@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel serve ./src/index.html"
+    "start": "parcel serve ./src/index.html",
+    "tw": "tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "vue": "^3.4.33"
   },
   "devDependencies": {
-    "@parcel/transformer-vue": "^2.12.0"
+    "@parcel/transformer-vue": "^2.12.0",
+    "tailwindcss": "^3.4.6"
   }
 }
