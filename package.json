@@ -1,0 +1,19 @@
+{
+  "name": "vuetailwindcssyeah",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "vue": "^3.4.33"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.12.0"
+  }
+}
